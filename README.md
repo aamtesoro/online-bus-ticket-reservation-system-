@@ -1,0 +1,2 @@
+# online-bus-ticket-reservation-system-
+The Bus ticket online reservation system is a large frontend and backend software that can be imeediately deployed and shipped to an actual company..., with a database to enable users to sign up, login, book tickets and reserve seats. It also supports a rating system and gives the user the ability to to send feedbacks that are immediately stored in the system's database. The software has everything the user needs to have a wonderful experience through easy to deal with but detailed online booking system.
