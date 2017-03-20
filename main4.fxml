@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="982.0" prefWidth="1118.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Mycontroller">
+   <children>
+      <Pane layoutX="-123.0" layoutY="-124.0" prefHeight="200.0" prefWidth="200.0" />
+      <Text layoutX="292.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Azure Buses reservation page " textAlignment="CENTER" wrappingWidth="423.6708984375">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select your trip: " />
+      <Text layoutX="63.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From: " />
+      <Text layoutX="510.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Destination: " wrappingWidth="113.91748046875" />
+      <TextField fx:id="fromText" layoutX="125.0" layoutY="192.0" prefHeight="31.0" prefWidth="357.0" />
+      <TextField fx:id="destText" layoutX="631.0" layoutY="192.0" prefHeight="31.0" prefWidth="357.0" />
+      <Button fx:id="estimateTicketPrice" layoutX="63.0" layoutY="366.0" mnemonicParsing="false" onAction="#EstimateTicket" onMouseEntered="#EstimateTicket" text="Estimate Ticket price" />
+      <Button fx:id="buyTicket" layoutX="842.0" layoutY="894.0" mnemonicParsing="false" onAction="#BuyTicket" onMouseClicked="#BuyTicket" onMousePressed="#BuyTicket" prefHeight="31.0" prefWidth="136.0" text="Buy Ticket(s)" />
+      <Label fx:id="estimatefare" layoutX="294.0" layoutY="371.0" prefHeight="21.0" prefWidth="648.0" />
+      <Text layoutX="63.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trip date:" />
+      <DatePicker layoutX="160.0" layoutY="269.0" />
+      <Canvas height="304.0" layoutX="45.0" layoutY="578.0" width="962.0" />
+      <Button fx:id="seat1" layoutX="76.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="1" />
+      <Button fx:id="seat2" layoutX="76.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="2" />
+      <Button fx:id="seat3" layoutX="76.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="3" />
+      <Button fx:id="seat4" layoutX="160.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="4" />
+      <Button fx:id="seat5" layoutX="160.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="5" />
+      <Button fx:id="seat6" layoutX="160.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="6" />
+      <Button fx:id="seat7" layoutX="251.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="7" />
+      <Button fx:id="seat8" layoutX="251.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="8" />
+      <Button fx:id="seat9" layoutX="251.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="9" />
+      <Button fx:id="seat12" layoutX="346.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="12" />
+      <Button fx:id="seat15" layoutX="439.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="15" />
+      <Button fx:id="seat18" layoutX="526.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="18" />
+      <Button fx:id="seat21" layoutX="624.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="21" />
+      <Button fx:id="seat24" layoutX="716.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="24" />
+      <Button fx:id="seat27" layoutX="809.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="27" />
+      <Button fx:id="seat30" layoutX="909.0" layoutY="789.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="30" />
+      <Button fx:id="seat10" layoutX="346.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="10" />
+      <Button fx:id="seat13" layoutX="439.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="13" />
+      <Button fx:id="seat16" layoutX="526.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="16" />
+      <Button fx:id="seat19" layoutX="618.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="19" />
+      <Button fx:id="seat22" layoutX="716.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="22" />
+      <Button fx:id="seat25" layoutX="809.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="25" />
+      <Button fx:id="seat28" layoutX="908.0" layoutY="594.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="28" />
+      <Button fx:id="seat11" layoutX="346.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="11" />
+      <Button fx:id="seat14" layoutX="439.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="14" />
+      <Button fx:id="seat17" layoutX="526.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="17" />
+      <Button fx:id="seat20" layoutX="618.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="20" />
+      <Button fx:id="seat23" layoutX="716.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="23" />
+      <Button fx:id="seat26" layoutX="809.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="26" />
+      <Button fx:id="seat29" layoutX="909.0" layoutY="673.0" mnemonicParsing="false" onAction="#pickSeats" onMouseClicked="#pickSeats" prefHeight="57.0" prefWidth="65.0" text="29" />
+      <Text layoutX="63.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please pick your seat(s):" wrappingWidth="172.2255859375" />
+      <Text layoutX="63.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How many tickets would you like to buy:" wrappingWidth="275.10693359375" />
+      <TextField fx:id="numberOfTickets" layoutX="390.0" layoutY="453.0" prefHeight="31.0" prefWidth="228.0" />
+      <Button fx:id="settings" layoutX="956.0" layoutY="76.0" mnemonicParsing="false" onAction="#Settings" onMouseClicked="#Settings" prefHeight="31.0" prefWidth="92.0" text="settings" />
+      <Button fx:id="enter" layoutX="666.0" layoutY="453.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="99.0" text="enter" />
+   </children>
+</AnchorPane>

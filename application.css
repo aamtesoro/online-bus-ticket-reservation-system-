@@ -1,0 +1,41 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+	
+#lbmessage{
+	
+	-fx-font-size:20.0px; 
+	-fx-background-color:rgb(32,74,135);
+	-fx-text-fill:rgb(255,255,255); 
+	-fx-padding:8 8 8 8;  
+	-fx-background-radius:10;
+	-fx-border-color:rgb(32,74,135); 
+	-fx-border-radius: 10;
+	
+}	
+
+.label{
+	-fx-font-size:20.0px;
+	-fx-padding:8 8 8 8;  
+    
+
+}
+
+#lb4{
+		-fx-font-size:20.0px;
+    	-fx-padding:8 8 8 8;  
+    	-fx-text-fill: rgb(0,255,0);
+	
+	
+}
+
+.button{
+	
+	-fx-font-size:20.0px; 
+	-fx-background-color:rgb(227,227,227);
+	-fx-padding:8 8 8 8;  
+	
+	
+}
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Mycontroller">
+   <children>
+      <Pane layoutX="-267.0" prefHeight="163.0" prefWidth="992.0">
+         <children>
+            <Text layoutX="315.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for reserving tickets at Azure Buses...We hope you had a wonderful experience." wrappingWidth="626.6708984375" />
+            <Button fx:id="exitWithoutReceipt" layoutX="710.0" layoutY="82.0" mnemonicParsing="false" onAction="#ExitWithoutReceipt" onMouseClicked="#ExitWithoutReceipt" prefHeight="31.0" prefWidth="104.0" text="Exit" />
+            <Button fx:id="rateButton" layoutX="537.0" layoutY="82.0" mnemonicParsing="false" onAction="#Rate" onMouseClicked="#Rate" prefHeight="31.0" prefWidth="104.0" text="Rate us!" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
